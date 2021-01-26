@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1087466885316",
+    "firebase_url": "https://plan4u-b19ad.firebaseio.com",
+    "project_id": "plan4u-b19ad",
+    "storage_bucket": "plan4u-b19ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087466885316:android:cf71bf4d540d038d5a3991",
+        "android_client_info": {
+          "package_name": "com.example.plan4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087466885316-d33t49mh9htieqin07ba1bqrf4ja309p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plan4u",
+            "certificate_hash": "304cb971b3b047c3dc3f72e92c9a57efbf9e5992"
+          }
+        },
+        {
+          "client_id": "1087466885316-f3jok608703hk3jo1vbdi1j3mlv347oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmKGeTv-UpbXRRKgT2GO7dK9JKCQN8-Qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087466885316-f3jok608703hk3jo1vbdi1j3mlv347oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

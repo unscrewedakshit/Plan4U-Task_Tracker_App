@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    tools:context=".UserSettings">
+
+    <TextView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Details"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:textSize="35dp"
+        android:layout_marginTop="135dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/settingsUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="akshitpanday791@outlook.com"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffff"
+            android:layout_marginLeft="15dp"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UID : "
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/settingsUserID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 Oct 2020"
+            android:textColor="#ffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/settingsChangePassword"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:padding="13dp"
+        android:drawableStart="@drawable/ic_baseline_edit_24"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="@drawable/rounded_card"
+        android:backgroundTint="#0f4c75"
+        android:drawableLeft="@drawable/ic_baseline_edit_24" />
+
+    <Button
+        android:id="@+id/settingsDeleteAccount"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:padding="13dp"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_baseline_delete_forever_24"
+        android:textColor="#ffff"
+        android:background="@drawable/rounded_card"
+        android:drawableLeft="@drawable/ic_baseline_delete_forever_24" />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
